@@ -14,14 +14,13 @@
 ---
 
 ## 🎯 نحوه ی استفاده 
-
+۱- لینک خود را بصورت مستقیم مثل example.com/files/something.zip آماده کنید.
+۲- به گیتهاب خود رفته و روی ریپازیتوری فورک شده بزنید و قسمت Actions را انتخاب کنید.
+۳- در قسمت Actions شما لیست workflow ها را میبینید که یک عدد workflow داریم به اسم AVASAM - Download from URLs & Save to Repo  . روی آن بزنید و بعد از باز شدن روی Run Workflow بزنید آدرس دانلود از شما خواسته میشود و سپس شروع به دانلود .....
+---
 
 
 ## 📂 فایلها را از کجا دانلود کنیم
+همه فایلهای دانلود شده در پوشه ی downloads درون ریپازیتوری شما اضافه میشوند.فایل ها بصورت تکه های ۹۰ مگابایتی تقسیم بندی میشود مثلا اگر فایل شما ۳۰۰ مگابایت باشد باید ۴ عدد فایل دانلود شود و شما باید هر ۴ فایل را دانلود و سپس اکسترکت بکنید. برای اکسترکت کردن از 7zip استفاده کنید در لینوکس با دستور 7z x file.zip میتوانید همه ی فایل های تکه تکه را درون یک پوشه اکسترکت بکنید.
 
-All downloaded files appear inside the `downloads/` folder of your repository after the workflow finishes.
 
-- **Normal mode** → Each file is placed directly under `downloads/` (split multi-part `.zip`, `.z01`, … if size exceeded threshold).
-- **Zip mode** → A single zip archive `archive_YYYYMMDD_HHMMSS.zip` containing all downloaded files.
-
----
